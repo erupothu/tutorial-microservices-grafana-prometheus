@@ -2,7 +2,7 @@
 
 git clone https://github.com/erupothu/tutorial-microservices-grafana-prometheus.git
 cd tutorial-microservices-grafana-prometheus
-mvn clean install
+mvn package
 
 
 docker stop tutorial-microservices-grafana-prometheus || true && docker rm tutorial-microservices-grafana-prometheus || true
